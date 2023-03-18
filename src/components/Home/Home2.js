@@ -18,7 +18,7 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
+            {/* <p className="home-about-body">
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
@@ -50,7 +50,16 @@ function Home2() {
               <i>
                 <b className="purple"> React.js and Next.js</b>
               </i>
-            </p>
+            </p> */}
+            <p className="home-about-body">
+            I have a deep passion for programming and have been honing my skills for years. As a <span className="purple">senior software engineer </span>, I specialize in <span className="purple"> MERN stack development and blockchain technologies </span>, building innovative solutions that leverage the latest advancements in <span className="purple"> web3. </span> <br /> <br />
+
+ My field of interest is <span className="purple">building new web technologies and products </span>, as well as exploring areas related to deep learning and natural language processing. <br /> <br />
+
+Whenever possible, I apply my passion for developing products with <span className="purple"> Node.js and modern Javascript libraries and frameworks like React.js,Express.js and Next.js </span>. These tools enable me to build high-performance, scalable applications that deliver a seamless user experience. <br /> <br />
+
+With a track record of delivering results and a dedication to staying up-to-date on the latest technologies, I'm committed to creating <span className="purple">cutting-edge solutions that drive business growth and success</span>. <br /> <br />
+</p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
@@ -67,7 +76,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/coolveer"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +86,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/theveer5"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +96,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/veer-pratap-singh/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -95,7 +104,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://www.instagram.com/soumyajit4419"
                   target="_blank"
@@ -104,7 +113,7 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Col>
         </Row>
