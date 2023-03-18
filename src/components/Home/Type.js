@@ -9,7 +9,7 @@ function Type() {
           "Senior Software Engineer",
           "Full Stack WEB3 Developer",
           "Team Lead",
-          "Open Source Contributor",
+          // "Open Source Contributor",
         ],
         autoStart: true,
         loop: true,
